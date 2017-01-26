@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cstdio>
 #include <cmath>
-#include <algorithm>
-#include <map>
 using namespace std;
 
 long double x,y,z;
@@ -14,6 +12,7 @@ long double a[13];
 int main()
 {
     cin >> x >> y >> z;
+    //ȡlog
     a[1]=pow(y,z)*log(x);
     a[2]=pow(z,y)*log(x);
     a[3]=y*z*log(x);
